@@ -20,7 +20,7 @@ https://github.com/weichenlin306/jjy40_generator/assets/133075659/c4bba9bd-c1b7-
 
     #define MY_ESP_WIFI_PASS      "MY_PASSWORD"
 
-  改為實際WiFi帳密。
+  字串(雙引號內文字)改為實際WiFi帳密。
 
 ### License
 - 無
