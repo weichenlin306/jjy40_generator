@@ -14,6 +14,10 @@ https://github.com/weichenlin306/jjy40_generator/assets/133075659/7f6c7571-6b61-
 ### 程式編譯環境
 - Eclips IDE 2022-09
 - Espressif ESP-IDF
+- 使用時須把
+  #define MY_ESP_WIFI_SSID      "MY_SSID"
+  #define MY_ESP_WIFI_PASS      "MY_PASSWORD"
+  改為實際WiFi帳密。
 
 ### License
 - 無
