@@ -21,6 +21,7 @@ https://github.com/weichenlin306/jjy40_generator/assets/133075659/c4bba9bd-c1b7-
     #define MY_ESP_WIFI_PASS      "MY_PASSWORD"
 
   字串(雙引號內文字)改為實際WiFi帳密。
+- 發射電波以外時間，均令其進入深度睡眠。由於深度睡眠使用之內部時鐘頻率低，且易受環境溫度、濕度影響計時準確度，沈睡後無法準時在午夜零時前醒來(有數分鐘誤差)，故提前先在11:30pm左右先讓它醒來一次再令其沈睡。較短區間沈睡可以在較準確時間醒來。
 
 ### License
 - 無
