@@ -17,6 +17,7 @@ https://github.com/weichenlin306/jjy40_generator/assets/133075659/c4bba9bd-c1b7-
 - 使用時須把
 
     #define MY_ESP_WIFI_SSID      "MY_SSID"
+
     #define MY_ESP_WIFI_PASS      "MY_PASSWORD"
 
   改為實際WiFi帳密。
