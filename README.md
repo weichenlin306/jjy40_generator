@@ -1,6 +1,6 @@
 # 電波錶JJY40對時電波產生器
 
-https://github.com/weichenlin306/jjy40_generator/RadioClockWave.mp4
+https://github.com/weichenlin306/jjy40_generator/assets/133075659/7f6c7571-6b61-458e-aa8f-c421344ea7f6
 
 ### 簡介
 - 本JJY40電波產生器可模擬日本發射的JJY40低頻對時電波，於每天午夜零時起連續六個整點發射電波，每次持續五分鐘。
