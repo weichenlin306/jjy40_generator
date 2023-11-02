@@ -7,18 +7,18 @@ https://github.com/weichenlin306/jjy40_generator/assets/133075659/c4bba9bd-c1b7-
 
 ### 硬體需求
 - ESP32系列，具內建WiFi
-- 使用DAC GPIO25作為電波輸出埠
+- 使用DAC channel 0 (GPIO25)作為電波輸出埠
 - GPIO23作為啟動狀態LED指示燈輸出接腳
-- 實測DAC GPIO25若僅接220Ω電阻與LED燈，在裝置10公分半徑範圍內可收到對時電波訊號。
+- 實測GPIO25若僅接220Ω電阻與LED燈(演示用)，在裝置10公分半徑範圍內可收到對時電波訊號。
 
 ### 程式編譯環境
-- Eclips IDE 2022-09
-- Espressif ESP-IDF
+- Eclipse IDE 2022-09
+- Espressif ESP-IDF (stable v5.1.1)
 - 使用時須把
 
-    #define MY_ESP_WIFI_SSID      "MY_SSID"
+    #define MY_ESP_WIFI_SSID "MY_SSID"
 
-    #define MY_ESP_WIFI_PASS      "MY_PASSWORD"
+    #define MY_ESP_WIFI_PASS "MY_PASSWORD"
 
   字串(雙引號內文字)改為實際WiFi帳密。
 - 發射電波以外時間，均令其進入深度睡眠。由於深度睡眠使用之內部時鐘頻率低，且易受環境溫度、濕度影響計時準確度，最後一次發射完電波進入沈睡後，無法準時在午夜零時前醒來(有數分鐘誤差)，故提前在11:30pm左右先讓它醒來一次再令其沈睡。較短區間沈睡可以在較準確時間醒來。
