@@ -8,8 +8,8 @@ https://github.com/weichenlin306/jjy40_generator/assets/133075659/c4bba9bd-c1b7-
 ### 硬體需求
 - ESP32系列，具內建WiFi
 - 使用DAC channel 0 (GPIO25)作為電波輸出埠
-- GPIO23作為啟動狀態LED指示燈輸出接腳
 - 實測GPIO25若僅接220Ω電阻與LED燈(演示用)，在裝置10公分半徑範圍內可收到對時電波訊號。
+- GPIO23作為啟動狀態LED指示燈輸出接腳
 
 ### 程式編譯環境
 - Eclipse IDE 2022-09
